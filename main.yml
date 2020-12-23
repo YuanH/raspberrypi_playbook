@@ -1,0 +1,11 @@
+---
+  - hosts: rpi
+    become: yes
+
+    vars_files:
+      - vars/main.yml
+
+    roles: 
+      # - huang.apt
+      - huang.dotfiles
+    tasks:

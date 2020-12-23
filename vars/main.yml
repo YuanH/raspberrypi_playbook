@@ -1,0 +1,15 @@
+---
+apt_installed_apps:
+  # - go
+  - zsh
+  - nmap
+
+dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo_local_destination: ~/repositories/dotfiles
+dotfiles_home: "~"
+dotfiles_repo_version: master
+dotfiles_repo_accept_hostkey: false
+dotfiles_files:
+ # - .bash_profile
+  - .vimrc
+ # - .zshrc
