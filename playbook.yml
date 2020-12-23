@@ -6,6 +6,6 @@
       - vars/main.yml
 
     roles: 
-      # - huang.apt
+      - huang.apt
       - huang.dotfiles
     tasks:
